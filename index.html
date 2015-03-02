@@ -1,0 +1,47 @@
+<!-- ******************************************
+*  File Name	: index.html
+*  Description	: HTML structure
+*  Date Created : 21-2-2015
+*  Created By   : Sachin Taware
+******************************************* -->
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Flip Your Mind :)</title>
+	<link href="css/common.css" rel="stylesheet" type="text/css">
+	<link href="fonts/fonts.css" rel="stylesheet" type="text/css">
+	<link href="css/global.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		var windowHeight = $(window).height()/2-15;
+		console.log(windowHeight);
+		$(".box h2").css("line-height", windowHeight+"px");
+	});
+	</script>
+</head>
+
+<body>
+	<!-- Home -->
+	<section class="step01">
+		<div class="center">
+			<span>Flip your mind</span>
+		</div>
+		<div class="box">
+			<h2>Choice is yours</h2>
+		</div>
+		<div class="box colorChange">
+			<h2>Know us</h2>
+		</div>
+		<div class="box colorChange">
+			<h2>Get in touch</h2>
+		</div>
+		<div class="box">
+			<h2>Tech facts</h2>
+		</div>
+		<div class="clear"></div>
+	</section>
+</body>
+</html>
