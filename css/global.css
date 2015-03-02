@@ -1,0 +1,72 @@
+/******************************************
+*  File Name	: global.css
+*  Description	: Global styles
+*  Date Created : 1-2-2015
+*  Created By   : Sachin Taware
+*******************************************/
+body, html {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #080323;
+}
+
+/************ Home *************/
+.step01 {
+	position: relative;
+	overflow: hidden;
+	width: 98%;
+	font-family: 'Raleway Bold';
+	margin: 1%;
+}
+.step01 .box {
+	width: 50%;
+	width: 50%;
+	float: left;
+	background-color: #c1c1c1;
+}
+.step01 .box.colorChange {
+	background-color: #f9f9f9;
+}
+/*.step01 .box:nth-child(1), .step01 .box:nth-child(4) {
+	background-color: #c1c1c1;
+}*/
+.step01 .box h2 {
+	text-align: center;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.center {
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+	background-color: #000;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	cursor: pointer;
+}
+.center span {
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-top: 65px;
+	display: block;
+	line-height: 38px;
+}
+
+/*********** About us ***********/
+.aboutus {
+	background-color: #fff;
+	/*margin: 1%;*/
+	height: 100vh;
+	width: 100%;
+}
